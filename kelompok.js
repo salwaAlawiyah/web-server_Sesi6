@@ -6,7 +6,7 @@ const PORT = 3000;
 const waktuMulai = new Date();
 
 app.get('/', (req, res) => {
-    res.send('Selamat datang di server Kelompok Chernobyl!');
+    res.send('Selamat datang di server Kelompok 8!');
 });
 
 app.get('/info', (req, res) => {
